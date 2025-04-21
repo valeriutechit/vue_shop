@@ -24,6 +24,13 @@ import CartItem from '~/components/CartItem.vue'
 import { useCartStore } from '~/stores/cart'
 import { computed } from 'vue'
 
+useHead({
+  title: 'Your Cart — Simple Shop',
+  meta: [
+    { name: 'description', content: 'Your cart in Simple Shop. Review and manage your items.' },
+  ],
+})
+
 const cart = useCartStore()
 
 const sortedItems = computed(() =>
