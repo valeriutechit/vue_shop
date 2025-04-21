@@ -10,17 +10,17 @@
     "test:ui": "vitest --ui"
   },
   "devDependencies": {
-    "@nuxtjs/tailwindcss": "latest",
-    "@pinia/nuxt": "latest",
-    "@vitest/ui": "^3.1.1",
-    "@vue/test-utils": "^2.4.6",
-    "happy-dom": "^17.4.4",
-    "jsdom": "^26.1.0",
-    "nuxt": "latest",
-    "typescript": "^5.0.0",
-    "vitest": "^3.1.1"
+    "nuxt": "3.10.2",
+    "typescript": "5.3.3",
+    "@nuxtjs/tailwindcss": "6.11.0",
+    "@pinia/nuxt": "0.5.1",
+    "vitest": "3.1.1",
+    "@vitest/ui": "3.1.1",
+    "@vue/test-utils": "2.4.6",
+    "jsdom": "22.1.0",
+    "happy-dom": "17.4.4"
   },
   "dependencies": {
-    "pinia-plugin-persistedstate": "^4.2.0"
+    "pinia-plugin-persistedstate": "3.2.0"
   }
 }

@@ -1,4 +1,3 @@
-// composables/useProducts.ts
 import { ref, onMounted } from 'vue'
 import { useProductStore } from '~/stores/products'
 import { useUIStore } from '~/stores/ui'
