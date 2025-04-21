@@ -1,0 +1,1 @@
+import{d as a,t as n,v as e,I as r,M as s,z as c,J as _,_ as m}from"./C_qAD8mP.js";import{u,L as p}from"./Fbd6o8Lb.js";import"./DlAUqK2U.js";const B=a({__name:"default",setup(d){const t=u();return(i,l)=>{const o=m;return e(),n("div",null,[_(t).isLoading?(e(),r(p,{key:0})):s("",!0),c(o)])}}});export{B as default};

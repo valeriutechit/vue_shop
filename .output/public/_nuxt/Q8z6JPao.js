@@ -1,0 +1,1 @@
+import{_ as e}from"./DlAUqK2U.js";import{t as o,x as s,v as r}from"./C_qAD8mP.js";const a={},c={class:"p-4"};function n(_,t){return r(),o("div",c,t[0]||(t[0]=[s("h1",{class:"text-2xl font-bold"},"Cart",-1)]))}const d=e(a,[["render",n]]);export{d as default};

@@ -1,11 +1,5 @@
 import { defineStore } from 'pinia'
-
-export type Product = {
-  id: number
-  title: string
-  price: number
-  addedAt?: Date
-}
+import { type Product } from '../types/product'
 
 export const useCartStore = defineStore('cart', {
   state: () => ({
