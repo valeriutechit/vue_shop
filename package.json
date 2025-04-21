@@ -5,13 +5,20 @@
     "dev": "nuxt dev",
     "build": "nuxt build",
     "preview": "nuxt preview",
-    "start": "nuxt start"
+    "start": "nuxt start",
+    "test": "vitest",
+    "test:ui": "vitest --ui"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "latest",
     "@pinia/nuxt": "latest",
+    "@vitest/ui": "^3.1.1",
+    "@vue/test-utils": "^2.4.6",
+    "happy-dom": "^17.4.4",
+    "jsdom": "^26.1.0",
     "nuxt": "latest",
-    "typescript": "^5.0.0"
+    "typescript": "^5.0.0",
+    "vitest": "^3.1.1"
   },
   "dependencies": {
     "pinia-plugin-persistedstate": "^4.2.0"

@@ -32,8 +32,15 @@ npm run build
 npm run preview
 ```
 
+## 🧪 Run Tests
+```bash
+npm run test
+```
+Includes unit tests for the cart store (add/remove items). Uses Vitest and jsdom.
+
 ## 📁 Structure
 - pages/ — views (index.vue, cart.vue)
 - components/ — reusable UI components
 - stores/ — Pinia stores (e.g., cart, ui)
 - types/ — TypeScript models (e.g., Product)
+- tests/ — Unit tests with Vitest
