@@ -8,10 +8,12 @@
     "start": "nuxt start"
   },
   "devDependencies": {
-    "nuxt": "latest",
-    "@pinia/nuxt": "latest",
     "@nuxtjs/tailwindcss": "latest",
+    "@pinia/nuxt": "latest",
+    "nuxt": "latest",
     "typescript": "^5.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "pinia-plugin-persistedstate": "^4.2.0"
+  }
 }
